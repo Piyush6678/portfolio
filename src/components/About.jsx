@@ -6,10 +6,11 @@ const About = () => {
       
 <div  className='max-w-screen p-4 mx-auto flex flex-col justify-center items-center w-full h-full' >
     <div className='pb-8'>
-        <p className='text-4xl font-bold border-b-4 border-gray-500 inline '  >About</p>
-        <p className='text-xl mt-20  ' >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos voluptatum, laboriosam mollitia nesciunt ad facere labore vitae facilis voluptatibus aperiam, officia illum corrupti consequuntur nostrum eum impedit vero reprehenderit, odit culpa! Quo similique dignissimos et modi aut, at necessitatibus impedit doloremque dolorum natus veritatis eaque numquam, harum, quidem nulla id.  </p>
+        <p className='text-4xl font-bold border-b-4 border-gray-500 inline '  >About Me</p>
+        <p className='text-xl mt-20  ' >I am a Software Developer currently pursuing my <strong>B.Tech in CSE (Data Science)</strong> at <strong>MAIT</strong> (Class of 2028). 
+              I specialize in building full-stack applications using the <strong>MERN Stack</strong> and have a deep passion for solving algorithmic challenges with <strong>Data Structures & Algorithms</strong>.  </p>
         <br />
-        <p className='text-xl'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, voluptates amet dolorem eum quaerat ea sequi cumque quod! Cupiditate laudantium ducimus nobis! Maiores officia cumque laudantium itaque, illum quas iusto dolorem perspiciatis optio, omnis quis vitae quam aliquid ea dolores veniam tempore quo. Ipsa odit autem excepturi maiores, neque eos.</p>
+        <p className='text-xl'>My passion lies in solving complex problems and building intuitive web applications. I have a strong command of Data Structures and Algorithms, which allows me to write efficient and optimized code. On the development side, I specialize in the MERN Stack (MongoDB, Express.js, React, Node.js), creating full-stack solutions that are both functional and scalable. I am always looking for opportunities to learn new technologies and apply my skills to real-world challenges.</p>
     </div>
 </div>
 

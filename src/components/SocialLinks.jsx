@@ -12,7 +12,7 @@ child:(
   <>  Linkedin <FaLinkedin size={30}/> </>
 
 ),
-href:"https://Linkedin.com",
+href:"https://www.linkedin.com/in/piyush-aggarwal-8926b3312/",
 style:"rounded-tr-md "
 },
     {
