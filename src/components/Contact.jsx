@@ -48,7 +48,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
             </div>
 
             <div className='flex justify-center items-center ' >
-                <form action="" className='flex flex-col w-full md:w-1/2 ' >
+                <form action={import.meta.env.VITE_formLink} method="POST" className='flex flex-col w-full md:w-1/2 ' >
             <input type="text" className=' text-white focus:outline-none p-2 bg-transparent  border-2 rounded-md' name="name" placeholder='Enter Your Name' />
             <input type="text" className=' text-white focus:outline-none p-2 bg-transparent border-2 rounded-md my-4 ' name="email" placeholder='Enter Your Name' />
     <textarea placeholder="Enter Your message" name="message" rows="10"  className=" border-2 rounded-md text-white focus:outline-none p-2 bg-transparent" ></textarea>

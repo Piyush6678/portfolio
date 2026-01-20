@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 
-const ProjectItem = ({ id, title, description, tech, src, videoSrc, reverse, demoLink, codeLink }) => {
+const ProjectItem = ({  title, description, tech, src, videoSrc, reverse, demoLink, codeLink }) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef(null);
 
@@ -21,7 +21,7 @@ const ProjectItem = ({ id, title, description, tech, src, videoSrc, reverse, dem
 
   return (
     <div className={`flex flex-col md:flex-row ${reverse ? 'md:flex-row-reverse' : ''} items-center justify-center w-full mb-24 gap-12`}>
-      {/* Description Section */}
+   
       <div className="w-full md:w-1/2 p-4 text-white">
         <h3 className="text-3xl font-bold mb-4 border-b-2 border-gray-500 inline-block">{title}</h3>
         <p className="text-lg mb-4 text-cyan-400 font-bold uppercase tracking-wider">{tech}</p>
@@ -43,7 +43,7 @@ const ProjectItem = ({ id, title, description, tech, src, videoSrc, reverse, dem
 
       </div>
 
-      {/* Media Section */}
+
       <div 
         className="w-full md:w-1/2 h-64 md:h-80 relative rounded-xl overflow-hidden shadow-xl shadow-gray-700 hover:shadow-cyan-500/30 duration-300 border border-gray-700 bg-gray-900 group"
         onMouseEnter={handleMouseEnter}
@@ -61,7 +61,7 @@ const ProjectItem = ({ id, title, description, tech, src, videoSrc, reverse, dem
             loop
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${isPlaying ? 'opacity-100' : 'opacity-0'}`}
         />
-        {/* Overlay for "Hover to play" hint could go here if needed */}
+       
       </div>
     </div>
   );

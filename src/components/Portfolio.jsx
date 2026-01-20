@@ -17,7 +17,7 @@ const Portfolio = () => {
             src: sketify, // Using heroImage as placeholder thumbnail
             videoSrc: sketifyVideo,
             reverse: false,
-            codeLink: "https://github.com/yourusername/excalidraw-clone"
+            codeLink: "https://github.com/Piyush6678/collaborative-whiteboard"
         },
         {
             id: 2,
@@ -27,8 +27,8 @@ const Portfolio = () => {
             src: lmsphoto,
             videoSrc: "https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-a-scifi-loading-bar-99-percent-complete-11785-large.mp4",
             reverse: true,
-            demoLink: "https://ecommerce-dashboard-demo.com",
-            codeLink: "https://github.com/yourusername/ecommerce-dashboard"
+            demoLink: "lms-frontend-pie8.vercel.app",
+            codeLink: "https://github.com/Piyush6678/lms-frontend"
         }
     ];
 
