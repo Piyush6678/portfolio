@@ -27,7 +27,7 @@ const Portfolio = () => {
             src: lmsphoto,
             videoSrc: "https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-a-scifi-loading-bar-99-percent-complete-11785-large.mp4",
             reverse: true,
-            demoLink: "lms-frontend-pie8.vercel.app",
+            demoLink: "https://lms-frontend-pie8.vercel.app/",
             codeLink: "https://github.com/Piyush6678/lms-frontend"
         }
     ];
